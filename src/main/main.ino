@@ -31,19 +31,9 @@ void DemarrerProgramme() {
   ForceStop();
   FinContournement();
 
+  // METTRE ICI la mission pour le robot
   Tourner(true, 90);
-  Avancer(3000);
-  
-  // Contournement
-  Tourner(true, 90);
-  Avancer(1000);
-  Tourner(false, 90);
-  Avancer(1000);
-  Tourner(false, 90);
-  Avancer(1000);
-  Tourner(true, 90);
-
-  Avancer(2000);
+  Avancer(5000);
 }
 
 // Fonction appelée pour faire un carré
